@@ -1,4 +1,4 @@
-.section-cap {
+.cap {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--color-six);
@@ -12,11 +12,11 @@
   background-size: cover;
   flex-grow: 1;
 }
-.container-cap {
+.cap__container {
   text-align: center;
 }
 
-.cap-text {
+.cap__text {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -26,7 +26,7 @@
   margin-bottom: 30px;
 }
 
-.cap-button {
+.cap__button {
   padding: 10px 32px;
   text-align: center;
   font-family: inherit;

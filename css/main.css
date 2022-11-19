@@ -205,7 +205,7 @@ body {
   margin-top: 28px;
 }
 
-.section-cap {
+.cap {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--color-six);
@@ -216,11 +216,11 @@ body {
   flex-grow: 1;
 }
 
-.container-cap {
+.cap__container {
   text-align: center;
 }
 
-.cap-text {
+.cap__text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3636363636;
@@ -230,7 +230,7 @@ body {
   margin-bottom: 30px;
 }
 
-.cap-button {
+.cap__button {
   padding: 10px 32px;
   text-align: center;
   font-family: inherit;
@@ -245,7 +245,7 @@ body {
   border: var(--color-two);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cap-button:hover, .cap-button:focus {
+.cap__button:hover, .cap__button:focus {
   background-color: var(--color-seven);
 }
 
@@ -301,16 +301,16 @@ body {
   margin-bottom: 50px;
 }
 
-.section-work {
+.gallery {
   padding-top: 0px;
   padding-bottom: 94px;
 }
 
-.li-wrap-label {
+.gallery__li-wrap-label {
   position: relative;
 }
 
-.label {
+.gallery__label {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -338,11 +338,11 @@ body {
   height: 44px;
 }
 
-.team {
+.people {
   background: var(--color-eight);
 }
 
-.team-card {
+.people__card {
   width: 270px;
   background: var(--color-one);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -350,12 +350,12 @@ body {
   padding-bottom: 30px;
 }
 
-.team-card-text {
+.people__card-text {
   padding-top: 30px;
   margin-bottom: 16px;
 }
 
-.worker-name {
+.people__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1875;
@@ -365,7 +365,7 @@ body {
   margin-bottom: 10px;
 }
 
-.position {
+.people__position {
   font-size: 16px;
   line-height: 1.1875;
   text-align: center;
@@ -373,7 +373,7 @@ body {
   color: var(--color-five);
 }
 
-.link-soc-icon {
+.people__link-soc-icon {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -383,7 +383,7 @@ body {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-soc-icon:hover, .link-soc-icon:focus {
+.people__link-soc-icon:hover, .people__link-soc-icon:focus {
   fill: var(--color-one);
   background-color: var(--color-two);
 }

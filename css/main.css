@@ -69,11 +69,6 @@ body {
   padding-bottom: 94px;
 }
 
-.list-row {
-  display: flex;
-  gap: 30px;
-}
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -252,6 +247,11 @@ body {
 }
 .cap-button:hover, .cap-button:focus {
   background-color: var(--color-seven);
+}
+
+.list-row {
+  display: flex;
+  gap: 30px;
 }
 
 .title-three {

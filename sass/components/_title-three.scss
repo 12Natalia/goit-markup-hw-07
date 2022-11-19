@@ -1,0 +1,14 @@
+.title-three {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-four);
+    margin-bottom: 10px;
+}
+
+.title-three--footer {
+    color: var(--color-one);
+    margin-bottom: 20px;
+}

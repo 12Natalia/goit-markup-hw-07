@@ -1,4 +1,6 @@
-.list-row {
-    display: flex;
-    gap: 30px;
+.list-row,
+.gallery__list,
+.people__list {
+  display: flex;
+  gap: 30px;
 }

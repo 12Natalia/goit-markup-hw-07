@@ -249,7 +249,9 @@ body {
   background-color: var(--color-seven);
 }
 
-.list-row {
+.list-row,
+.gallery__list,
+.people__list {
   display: flex;
   gap: 30px;
 }

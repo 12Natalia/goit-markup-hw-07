@@ -2,6 +2,10 @@
     padding-top: 0px;
     padding-bottom: 94px;
 }
+.gallery__list {
+    display: flex;
+    gap: 30px;
+}
 .gallery__li-wrap-label {
     position: relative;
 }

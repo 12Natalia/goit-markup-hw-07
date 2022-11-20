@@ -1,13 +1,11 @@
-.list-soc-icons,
-.people__list-soc-icons {
+.soc-list {
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
 }
 
-.container-soc-icon,
-.people__container-soc-icon {
+.soc-list__container-icon {
   width: 44px;
   height: 44px;
 }
